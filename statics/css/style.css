@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+
+img[class="game_choice"]{
+    width: 80%;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+/* Main Container */
+
+.main-container {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    justify-content: space-around;
+}
+
+/* Scores Main */
+
+.current_scores {
+    width: 60%;
+    border: 15px black solid;
+    margin: auto;
+    height: 75%;
+}
+
+.current_scores .score_board {
+    width: 65%;
+    height: 80%;
+    border: 20px black solid;
+    border-radius: 1rem;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.current_scores .score_board .board_title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    border: 1px black solid;
+}
+
+.current_scores .score_board .board_scores {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    justify-content: space-around;
+    border: 2px black solid;
+}
+
+
+.current_scores .score_board .board_scores #play{
+    border: 3px white solid;
+    color: white;
+    background-color: black;
+    font-weight: 1000;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    cursor: pointer;
+}
+.current_scores .score_board .board_title h4{
+    font-size: 2rem;
+}
+
+
+
+.current_scores .score_board .board_scores .scores{
+    height: 70%;
+    width: 30%;
+    border: 15px black solid;
+    border-radius: 2rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.current_scores .score_board .board_scores .scores .title {
+    margin: auto;
+    height: 30%;
+}
+
+.current_scores .score_board .board_scores .scores .score{
+    margin: auto;
+    height: 70%;
+    font-size: 3rem;
+    /* color: blue; */
+}
+
+.current_scores .score_board .board_scores .scores .score h5{
+    margin: auto;
+}
+
+
